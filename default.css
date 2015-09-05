@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Open Sans';
+}
+body > div {
+  height: 100%;
+}
+#map {
+  height: 100%;
+  margin-left: 335px;
+}
+
+#photos, .logo {
+  width: 335px;
+}
+#photos {
+  margin-top: 0;
+  height: 100%;
+  float: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #8b9dc3;
+}
+
+#photos .container {
+  background: #8b9dc3;
+}
+
+.logo {
+  height: 10%;
+  font-size: 2em;
+  color: #3b5998;
+  font-weight: bold;
+  text-align: center;
+  background: white;
+}
+
+#photos .wrapper {
+  margin-bottom: 30px;
+  transition: background-color 0.5s ease;
+  background: #8b9dc3;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#photos .wrapper:hover {
+  background: #3b5998;
+}
+
+#photos .wrapper .profile-picture img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+#photos .wrapper .profile-picture {
+  padding: 2px;
+  float: left;
+}
+
+#photos .wrapper .from {
+  float: left;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 1.2em;
+  height: 50px;
+  line-height: 50px;
+}
+
+#photos .title {
+  height: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+#photos .caption {
+  width: 320px;
+}
